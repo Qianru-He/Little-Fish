@@ -1,6 +1,8 @@
 function billing(kilometres,time)
 {
 	var result;
+	if(kilometres<0)
+		return -1;
 	if(kilometres<=2)
 	{
 		result = 6 + time*0.25;
