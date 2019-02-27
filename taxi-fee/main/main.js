@@ -18,6 +18,4 @@ function billing(kilometres,time)
 	}
 	return result;
 }
-module.exports = {
- billing
-}
+module.exports =  billing；
